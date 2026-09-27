@@ -1,0 +1,15 @@
+:root{--bg:#FFF4E6;--ink:#1D1B2F;--mut:#5E5A73;--tan:#FF6A3D;--lil:#C9B8FF;--mint:#6EE7B7;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#17162A;--ink:#F4EFE6;--mut:#B7B2C9;--card:#221F3A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 17px/1.6 Figtree,system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1,h2,.logo{font-family:'Bricolage Grotesque',Figtree,sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+h1{font-size:44px;margin:.4em 0 .2em}h2{font-size:24px;margin:1.8em 0 .4em}
+a{color:inherit;font-weight:800;text-decoration-thickness:2px}
+nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.logo{font-size:26px;text-decoration:none;margin-right:auto}
+.card{background:var(--card);border:2.5px solid var(--ink);border-radius:22px;box-shadow:4px 4px 0 var(--ink);padding:18px 20px;margin:16px 0}
+.btn{display:inline-block;background:var(--tan);color:#1D1B2F;border:2.5px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:12px 20px;text-decoration:none}
+.mut{color:var(--mut)}
+details{border-top:2px dashed var(--mut);padding:12px 0}summary{font-weight:800;cursor:pointer}
+footer{margin-top:48px;font-size:14px;color:var(--mut)}
